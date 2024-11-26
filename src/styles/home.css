@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("../artifacts/18717435_v849-nunny-36.jpg");
+}
+.content-description {
+    font-family: cursive;
+    text-align: left;
+    margin-top:85px;
+    width: 80%;
+    margin-left: 9%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.content-description h2, .content-description h3 {
+    color: #333;
+}
+.content-description ul {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.content-description .highlight {
+    font-weight: bold;
+}
+.quote{
+    text-align: center;
+    background: #ffd6ed;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 30px;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    font-weight: lighter;
+}
+@keyframes mymove {
+    0% {background-color: #ffa6a6;}
+    50% {background-color: #a8a8da;}
+    100% {background-color: #ffa6a6;}
+  }
+.note{
+    font-size: large;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 0px !important;
+}
